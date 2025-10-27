@@ -8,66 +8,127 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
-      ? linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpimpichnumpy2.0python3.10.____cpython
-      : CONFIG: linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpimpichnumpy2.0python3.10.____cpython
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichnumpy2.0python3.10.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichnumpy2.0python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-        SHORT_CONFIG: linux_64_c_compiler_version13cuda_c_h4de5493d99
-      ? linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpimpichnumpy2.0python3.11.____cpython
-      : CONFIG: linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpimpichnumpy2.0python3.11.____cpython
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_hf586d4a3
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichnumpy2.0python3.11.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichnumpy2.0python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-        SHORT_CONFIG: linux_64_c_compiler_version13cuda_c_h213b051ae2
-      ? linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpimpichnumpy2.0python3.12.____cpython
-      : CONFIG: linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpimpichnumpy2.0python3.12.____cpython
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_h2654a844
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichnumpy2.0python3.12.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichnumpy2.0python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-        SHORT_CONFIG: linux_64_c_compiler_version13cuda_c_he3f1a66678
-      ? linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpimpichnumpy2python3.13.____cp313
-      : CONFIG: linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpimpichnumpy2python3.13.____cp313
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_h6ad02b91
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichnumpy2.0python3.13.____cp313
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichnumpy2.0python3.13.____cp313
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-        SHORT_CONFIG: linux_64_c_compiler_version13cuda_c_hed7f11d860
-      ? linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpinompinumpy2.0python3.10.____cpython
-      : CONFIG: linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpinompinumpy2.0python3.10.____cpython
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_hf3960f92
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichnumpy2python3.10.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichnumpy2python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-        SHORT_CONFIG: linux_64_c_compiler_version13cuda_c_h0dd3aa9481
-      ? linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpinompinumpy2.0python3.11.____cpython
-      : CONFIG: linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpinompinumpy2.0python3.11.____cpython
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_h9358c6d6
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichnumpy2python3.11.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichnumpy2python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-        SHORT_CONFIG: linux_64_c_compiler_version13cuda_c_hfe5e60097b
-      ? linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpinompinumpy2.0python3.12.____cpython
-      : CONFIG: linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpinompinumpy2.0python3.12.____cpython
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_h6f5c506d
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichnumpy2python3.12.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichnumpy2python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-        SHORT_CONFIG: linux_64_c_compiler_version13cuda_c_hb70285c4a8
-      ? linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpinompinumpy2python3.13.____cp313
-      : CONFIG: linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpinompinumpy2python3.13.____cp313
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_hfdd6f7cd
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichnumpy2python3.13.____cp313
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichnumpy2python3.13.____cp313
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-        SHORT_CONFIG: linux_64_c_compiler_version13cuda_c_h77f5da51ef
-      ? linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpiopenmpinumpy2.0python3.10.____cpython
-      : CONFIG: linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpiopenmpinumpy2.0python3.10.____cpython
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_hbb417cb4
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompinumpy2.0python3.10.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompinumpy2.0python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-        SHORT_CONFIG: linux_64_c_compiler_version13cuda_c_hf435176bcc
-      ? linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpiopenmpinumpy2.0python3.11.____cpython
-      : CONFIG: linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpiopenmpinumpy2.0python3.11.____cpython
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_h1c0cac57
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompinumpy2.0python3.11.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompinumpy2.0python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-        SHORT_CONFIG: linux_64_c_compiler_version13cuda_c_h251005bbef
-      ? linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpiopenmpinumpy2.0python3.12.____cpython
-      : CONFIG: linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpiopenmpinumpy2.0python3.12.____cpython
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_h28d8facb
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompinumpy2.0python3.12.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompinumpy2.0python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-        SHORT_CONFIG: linux_64_c_compiler_version13cuda_c_hd1c96fed77
-      ? linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpiopenmpinumpy2python3.13.____cp313
-      : CONFIG: linux_64_c_compiler_version13cuda_compilerNonecuda_compiler_versionNonecxx_compiler_version13fortran_compiler_version13mpiopenmpinumpy2python3.13.____cp313
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_h255e16e1
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompinumpy2.0python3.13.____cp313
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompinumpy2.0python3.13.____cp313
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
-        SHORT_CONFIG: linux_64_c_compiler_version13cuda_c_h0da3b92349
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_h1f557a8f
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompinumpy2python3.10.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompinumpy2python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_h73bc3165
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompinumpy2python3.11.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompinumpy2python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_hd7a64439
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompinumpy2python3.12.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompinumpy2python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_h3636e59f
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompinumpy2python3.13.____cp313
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompinumpy2python3.13.____cp313
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_h842132a8
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpinumpy2.0python3.10.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpinumpy2.0python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_he5426a88
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpinumpy2.0python3.11.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpinumpy2.0python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_h4741b400
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpinumpy2.0python3.12.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpinumpy2.0python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_hb7535eb4
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpinumpy2.0python3.13.____cp313
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpinumpy2.0python3.13.____cp313
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_hbe1a1932
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpinumpy2python3.10.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpinumpy2python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_hc1fbc8a5
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpinumpy2python3.11.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpinumpy2python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_hde00c896
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpinumpy2python3.12.____cpython
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpinumpy2python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_h9f496590
+      ? linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpinumpy2python3.13.____cp313
+      : CONFIG: linux_64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpinumpy2python3.13.____cp313
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+        SHORT_CONFIG: linux_64_c_compiler_version14cuda_compil_h91a8fe0d
+    maxParallel: 18
   timeoutInMinutes: 360
   variables: {}
 
