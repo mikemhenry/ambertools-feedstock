@@ -132,7 +132,7 @@ requirements:
     - {{ mpi }}  # [mpi != 'nompi']
     - mpi4py  # [mpi != 'nompi']
     # See if this fixes the missing mkl error in a few builds
-    - mkl  # [linux]
+    - mkl  # [linux and x86_64]
     - __cuda  # [not osx and cuda_compiler_version != "None"]
   run_constrained:
     - ambermini ==9999999999
