@@ -118,6 +118,90 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichpython3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6854&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ambertools-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichpython3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichpython3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6854&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ambertools-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichpython3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichpython3.12.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6854&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ambertools-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichpython3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichpython3.13.____cp313</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6854&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ambertools-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpimpichpython3.13.____cp313" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompipython3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6854&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ambertools-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompipython3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompipython3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6854&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ambertools-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompipython3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompipython3.12.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6854&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ambertools-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompipython3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompipython3.13.____cp313</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6854&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ambertools-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpinompipython3.13.____cp313" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpipython3.10.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6854&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ambertools-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpipython3.10.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpipython3.11.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6854&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ambertools-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpipython3.11.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpipython3.12.____cpython</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6854&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ambertools-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpipython3.12.____cpython" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpipython3.13.____cp313</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6854&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/ambertools-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_c_compiler_version14cuda_compiler_versionNonecxx_compiler_version14fortran_compiler_version14mpiopenmpipython3.13.____cp313" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_mpimpichpython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6854&branchName=main">
